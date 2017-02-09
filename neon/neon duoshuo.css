@@ -1,0 +1,68 @@
+#ds-thread #ds-reset li.ds-post-placeholder{
+background-color:#000;
+}
+#ds-thread #ds-reset .ds-post-button{
+background-color:#000 !important;
+color:#E5C167 !important;
+box-shadow:none !important;
+}
+
+#ds-reset .ds-gradient-bg{
+background-color:#000 !important;
+}
+#ds-reset .ds-avatar img{
+border-radius:.5em !important;
+}
+#ds-thread #ds-rest .ds-user-name ds-highlight{
+color:#E5C167 !important;
+}
+
+#ds-thread #ds-reset .ds-comment-body a{
+color:#E5C167 !important;
+}
+
+#ds-thread #ds-reset .ds-user-name{
+color:#E5C167 !important;
+}
+
+#ds-thread #ds-reset a{
+color:#E5C167 !important;
+}
+
+#ds-reset .ds-highlight{
+color:#BB9459;
+}
+
+#ds-thread #ds-reset a.ds-comment-context{
+color:#E5C167 !important;
+}
+
+#ds-thread #ds-reset .ds-comments{
+border-top: 2px solid #E5C167;
+}
+
+
+#ds-thread #ds-reset .ds-post-self{
+background-color:#000;
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper{
+border:2px solid #E5C167;
+background-color:#000;
+}
+
+#ds-thread{
+margin-top:2em;
+}
+
+#ds-thread #ds-reset .ds-comments-info{
+display:none;
+}
+
+#ds-thread #ds-reset .ds-login-buttons{
+display:none;
+}
+
+#ds-thread #ds-reset li.ds-tab{
+    display:none;
+}

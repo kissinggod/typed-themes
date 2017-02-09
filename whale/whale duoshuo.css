@@ -1,0 +1,54 @@
+#ds-thread #ds-reset li.ds-tab a.ds-current{
+display:none;
+}
+
+#ds-thread #ds-reset .ds-sort a.ds-current, #ds-thread #ds-reset .ds-sort a{
+color:#1FB8FC;
+}
+
+#ds-thread #ds-reset .ds-sort a.ds-current, #ds-thread #ds-reset .ds-sort a:hover{
+color:#20A7DD;
+}
+
+#ds-thread #ds-reset .ds-login-buttons{
+display: none;
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper {
+   border: none;
+}
+
+#ds-thread #ds-reset .ds-post-options {
+   border:none;
+}
+#ds-thread #ds-reset .ds-post-options {
+    border: none;
+}
+#ds-reset .ds-gradient-bg {
+    background: transparent;
+}
+#ds-reset .ds-gradient-bg {
+    background: transparent;
+}
+
+#ds-thread #ds-reset .ds-post-button {
+    background: #1FB8FC;
+    color: #fff;
+}
+
+#ds-thread #ds-reset .ds-post-button:hover {
+    background: #20A7DD;
+    color: #fff;
+}
+
+#ds-reset .ds-avatar{
+border-radius:0.25rem;
+}
+
+#ds-reset, #ds-related-reads{
+margin-bottom: 1rem;
+}
+
+#ds-thread #ds-reset .ds-replybox {
+    margin-top: 1em;
+}

@@ -1,0 +1,291 @@
+<style>
+.post-list__item {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgba(153, 153, 151, 0.2);
+}
+
+
+.post-content h1, h2, h3, h4, h5, h6{
+    padding-top:1.5em;
+}
+
+.post-list__item .post-title h2{
+padding-top:0 !important;
+}
+
+p img{
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+  border-radius:5px;
+}
+</style>
+
+<style>
+    .wf-loading body{
+    opacity: 0;
+    visibility: hidden;
+    }
+
+    .ie.wf-loading body{
+    visibility: hidden;
+    }
+
+    .ie.wf-active body{
+    visibility: visible;
+    }
+
+    .wf-active body{
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.64s ease-in-out;
+    -moz-transition: opacity 0.64s ease-in-out;
+    transition: opacity 0.64s ease-in-out;}
+</style>
+
+<style>
+html{
+font-size:20px !important;
+}
+
+.site-title h1{
+font-size:1.4rem !important;
+line-height:1.4rem !important;
+}
+
+.site-description{
+font-size:.8rem !important;
+}
+
+ div.quote{
+      display:block;
+      float: right;
+      margin-left: 0.6em;
+      margin-bottom: 0.5em;
+      margin-top: 0.1em;
+      max-width: 12em;
+      font-size: 26px;
+      color: #66747E;
+      text-indent: -0.4em;
+      font-family: STsong, Songti SC Light, Songti SC，FangSong, serif;
+      font-weight:300;
+      font-style:italic;
+      background: url("../img/quote5.png") no-repeat;
+      padding: 1.6em 0 0.2em 2em;
+    }
+    
+    #div.quote::before {
+      content: "\201C";
+      font-family: STsong, Songti SC Light, Songti SC，FangSong, serif;
+      font-size: 80px;
+      font-weight: bold;
+      position:absolute;
+      left: -40px;
+      top: -20px;
+    }
+
+@-webkit-keyframes fadeIn {
+0% {
+opacity: 0; /*初始状态 透明度为0*/
+}
+50% {
+opacity: 0; /*中间状态 透明度为0*/
+}
+100% {
+opacity: 1; /*结尾状态 透明度为1*/
+}
+}
+
+.zzsc {
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+	-webkit-animation-name: fadeIn; /*动画名称*/
+    -webkit-animation-duration: 3s; /*动画持续时间*/
+    -webkit-animation-iteration-count: 1; /*动画次数*/
+    -webkit-animation-delay: 0s; /*延迟时间*/
+}
+.zzsc:hover {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+@media (max-width: 61.9em) {
+  .site-description {
+    display: none !important; } }
+    
+strong, h1, h2, h3, h4, h5, h6{
+    font-weight:bold !important;
+}
+
+::selection {
+    background:#111;
+    color:#fff;
+}
+
+::-moz-selection {
+    background:#111;
+    color:#fff;
+}
+
+
+ hide {
+     background-color:#E5C167;
+     color:#E5C167;
+     padding:0.1em 0.3em;
+	}
+
+  hide:hover {
+     color:#999997;
+     background-color:#000;
+	}
+
+.wp-caption a{
+    background-color:transparent !important;
+    padding:0 !important;
+    line-height:1em !important;
+    }
+    
+
+.wp-caption-alignleft a{
+    background-color:transparent !important;
+    padding:0 !important;
+    line-height:1em !important;
+}
+
+.wp-caption-alignright a{
+    background-color:transparent !important;
+    padding:0 !important;
+    line-height:1em !important;
+}
+
+img{
+    text-align:center !important;
+    display:table;
+float:block;
+margin:auto;
+position:relative;
+}
+
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<link rel="stylesheet" href="/template/bigfoot-default.css">
+<script type="text/javascript" src="/template/js/jquery.bigfoot.js"></script>
+<script type="text/javascript">
+    var bigfoot = $.bigfoot(
+        {
+            deleteOnUnhover: false,
+            preventPageScroll: false,
+            hoverDelay: 250
+        }
+    );
+</script>
+
+<style>
+ pre{
+     font-weight:regular;
+    word-wrap: break-word; 
+    word-break: normal; 
+  }   
+  
+  code{
+      color:#000;
+      background-color:#E5C167;
+      }
+</style>
+    
+    <style>
+    .content img{
+            border-radius:5px;
+            text-align:center;
+    }
+     
+    .content img:hover{
+          border-radius:5px;
+                    text-align:center;
+    }
+
+ .post-content img{
+            border-radius:5px !important;
+            text-align:center;
+    }
+     
+    .post-content img:hover{
+          border-radius:5px !important;
+                    text-align:center;
+    }
+    
+    .alignright {
+      float: right;
+      margin: 0;
+      margin-left: 25px;
+    }
+    
+    .alignright {
+      float: right;
+      margin: 0;
+      margin-left: 25px;
+    }     
+    
+    .alignleft {
+      float: left;
+      margin: 0;
+      margin-right: 25px;
+    }
+    
+    .alingcenter{
+      clear: both;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    .wp-caption{
+        display: block;
+          clear:both;
+        height: auto;
+        margin: 0 auto;
+         margin-bottom: 1em;
+        max-width: 100%;
+    }      
+    
+    .wp-caption img{
+         text-align:center;
+         display:block;
+         margin:0 auto;
+        max-width: 100%;
+      border-radius:5px;
+    }
+    
+    .wp-caption-text {
+        -moz-box-sizing: border-box;
+        box-sizing:      border-box;
+        font-size: 13px;
+        font-style: italic;
+        line-height: 1.3076923076;
+        margin: 10px 0 7px;
+        padding: 0 10px 0 0; /* Avoid the caption to overflow the width of the image because wp-caption has 10px wider width */
+        text-align: center;
+    }  
+    
+    .wp-caption-alignleft{
+        float: left;
+         margin: 0;
+         margin-right: 25px;
+    }       
+    
+    .wp-caption-alignright{
+        float: right;
+         margin: 0;
+         margin-left: 25px;
+    }
+    </style>
+    
+    <style>
+        img{max-width:100%}
+    </style>
